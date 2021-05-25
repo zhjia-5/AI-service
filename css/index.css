@@ -48,7 +48,7 @@ h3{
     float: left;
     margin-top: 10px;
     margin-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
 
 }
 .robot img{
@@ -72,7 +72,6 @@ h3{
     float: right;
     margin-top: 10px;
     margin-bottom: 20px;
-    padding-left: 20px;
 }
 .myself .text{
     float: right;
