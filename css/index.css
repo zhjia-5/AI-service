@@ -91,11 +91,11 @@ h3{
 }
 
 .myself .text::after{
-    right: -0.8em;
+    right: -0.7em;
     border-left: .4em solid yellowgreen;
 }
 .robot .text::after{
-    left: -0.8em;
+    left: -0.7em;
     border-right: .4em solid #fff;
 }
 
