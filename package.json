@@ -1,0 +1,19 @@
+{
+  "name": "turenjiqiren",
+  "version": "1.0.0",
+  "description": "图灵机器人",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhjia-5/level-one.git"
+  },
+  "author": "zhjia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhjia-5/level-one/issues"
+  },
+  "homepage": "https://github.com/zhjia-5/level-one#readme"
+}
