@@ -131,7 +131,15 @@ h3{
     color: #fff;
     flex: 0 0 100px;
 }
-@media screen and (max-width:768px){
+
+@media screen and (max-width:400px){
+    .wrapper{
+        width: 100% ;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:401) and (max-width:768px){
     .wrapper{
         width: 100% ;
         font-size: 1.5rem;
