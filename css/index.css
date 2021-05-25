@@ -60,7 +60,6 @@ h3{
     border-radius: 5px;
     padding: .5em .8em;
     word-wrap: normal;
-    overflow: hidden;
 }
 
 .robot .text {
@@ -80,6 +79,27 @@ h3{
     background: yellowgreen;
     margin-right: 15px;
 }   
+
+.text::after{
+    position: absolute;
+    top: 0.7em;
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border: .4em solid transparent;
+}
+
+.myself .text::after{
+    right: -0.8em;
+    border-left: .4em solid yellowgreen;
+}
+.robot .text::after{
+    left: -0.8em;
+    border-right: .4em solid #fff;
+}
+
+
 .myself img{
     float: right;
 }
