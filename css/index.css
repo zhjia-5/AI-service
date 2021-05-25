@@ -22,7 +22,7 @@ html,body{
     margin: 0 auto;
     background: #ebe9e9;
     overflow-y: hiden;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 h3{
     width: 100%;
@@ -118,7 +118,7 @@ h3{
     outline: none;
     height: 100%;
     text-indent: 1em;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     flex: 1 1 auto;
 }
 .bottom .btn{
@@ -134,11 +134,13 @@ h3{
 @media screen and (max-width:768px){
     .wrapper{
         width: 100% ;
+        font-size: 1.5rem;
     }
 }
 
 @media screen and (min-width:769px) and (max-width:800px) {
     .wrapper{
+        font-size: 1.6rem;
         width: 80% ;
     }
 }
@@ -146,5 +148,6 @@ h3{
 @media screen and (min-width:801px) {
     .wrapper{
         width: 50% ;
+        font-size: 1.8rem;
     }
 }
